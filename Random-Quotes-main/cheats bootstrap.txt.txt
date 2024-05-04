@@ -1,0 +1,64 @@
+1. <tr class="success"> danger info warning active - this field turn into the green also use         in links
+
+2.<a href="#" class="list-group-item active">First item</a>
+
+3. <button type="button" class="btn btn-primary">Primary Button</button> active disable
+
+4. <div class="alert alert-success"> info,warning,danger,sucess,primary
+
+5.<p class="bg-primary">This text is important.</p> just like aleret
+
+6.<ul class="breadcrumb">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Private</a></li>
+    <li><a href="#">Pictures</a></li>
+    <li class="active">Vacation</li>        
+  </ul>                                  for creating navigation
+
+7.<button type="button" class="btn btn-primary btn-sm btn-block">Button 1</button>
+8.<div class="btn-group"> add above style add justify 
+
+9.<div class="checkbox">
+      <label><input type="checkbox" value="">Option 1</label>
+    </div>
+10.<div class="center-block" style="background-color:yellow;width:200px;">This div will be centered.</div>
+
+11.<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Simple collapsible</button>
+  <div id="demo" class="collapse"> add direct paragerap not use p tag on click it show paragraph
+
+12<div class="container-fluid"> entire width of viewport
+
+13.<nav class="navbar navbar-inverse"> hides the nav bar at the resizing
+
+14img class="img-responsive" for fitting
+
+15 <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3>HOME</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>  similarly done for the other once also
+
+
+
+
+Create a GitHub Repository:
+Log in to your GitHub account.
+Click on the "+" sign in the top right corner and select "New repository."
+Name your repository and add a description if needed.
+Choose whether it should be public or private.
+Click on "Create repository."
+Initialize a Git Repository Locally:
+Navigate to the folder you want to deploy using the command line.
+Run git init to initialize a Git repository in that folder.
+Add Files to the Local Repository:
+If you haven't already, create a file or add your project files to the folder.
+Use git add . to stage all files or git add <filename> to stage specific files.
+Commit Your Changes:
+Commit the changes to your local repository using git commit -m "Initial commit" (replace "Initial commit" with your commit message).
+Link Your Local Repository to the GitHub Repository:
+On the GitHub repository page, copy the HTTPS or SSH URL.
+In your terminal, add the GitHub repository as a remote by running git remote add origin <repository URL>.
+Push Your Changes to GitHub:
+Push your committed changes to GitHub using git push -u origin master (if you're using the master branch) or git push -u origin <branch-name>.
+Verify on GitHub:
+Refresh your GitHub repository page, and you should see your files there.
